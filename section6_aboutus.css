@@ -1,0 +1,18 @@
+.section6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 0px;
+}
+.section6 h1 {
+  font-size: 100px;
+  margin: 50px 0px;
+}
+.section6 p {
+  width: 80%;
+  font-size: 30px;
+  margin-bottom: 30px;
+}

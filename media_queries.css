@@ -1,0 +1,439 @@
+
+
+/* rocket animation */
+/* @keyframes rocketMovement {
+  from {
+    left: 10px;
+  }
+  to {
+    left: calc(100% + 50px);
+  }
+}
+
+.rocket {
+  position: absolute;
+  top: 130px;
+  animation: rocketMovement 10s linear infinite;
+  z-index: 1;
+}
+
+
+.line {
+  position: absolute;
+  top: 130px; 
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: white;
+  transform-origin: left center;
+  animation: lineGrowth 10s linear infinite;
+  z-index: 0;
+}
+
+@keyframes lineGrowth {
+  to {
+    width: calc(100% + 50px);
+  }
+}
+
+
+.rocket img {
+  width: 50px;
+  height: auto;
+} */
+/* media queries for 2000px */
+@media (max-width: 2000px) {
+  .section3-article1 ol {
+    flex-direction: column;
+  }
+  .section2 {
+    flex-wrap: wrap;
+  }
+  .section1{
+    flex-direction: column-reverse;
+  }
+  form input[type="text"],
+  form input[type="email"] {
+    width: 600px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+
+  /* Increase the width of the email input and text area */
+  form textarea {
+    width: 600px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+/* media queries below 1200px and greater 700px */
+
+@media (max-width: 1200px) {
+  .section3-article1 ol li {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: 50px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    /* width: 80%; */
+  }
+  .section1 {
+    padding: 40px;
+  }
+.section2 h1{
+  font-size: 80px;
+}
+.section3 h1{
+  font-size: 80px;
+}
+.section5 h1 {
+  font-size: 70px;
+  margin: 40px 0px;
+}
+.section6 h1 {
+  font-size: 80px;
+  margin: 40px 0px;
+}
+.section4 h1 {
+  font-size: 80px;
+  margin: 40px;
+  margin-top: 80px;
+}
+.section1-article1 {
+ 
+
+  width: 600px;
+  /* height: 500px; */
+  padding: 40px 10px;
+  margin-bottom: 40px;
+}
+.section1-article1 h1 {
+  font-size: 60px;
+}
+.section1-article1 p {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+.section1-article1-article1 ul {
+  display: flex;
+  flex-direction: row;
+}
+.section1-article1-article1 ul li img {
+  margin-top: 30px;
+  height: 100px;
+  margin-right: 0px;
+  margin: 5px;
+}
+
+.section1-article2 img {
+  height: 200px; 
+  width: auto; 
+  margin: 30px 60px;
+}
+
+}
+
+
+
+
+
+/* media query for below 700px */
+@media (max-width:700px){
+  .section1 {
+    padding: 0px;
+  }
+.section1-article1 {
+ width: 400px;
+  /* height: 500px; */
+  padding: 40px 10px;
+  margin-bottom: 30px;
+}
+.section1-article1 h1 {
+  font-size: 40px;
+}
+.section1-article1 p {
+  font-size: 25px;
+  margin: 8px 0px;
+}
+.section1-article1-article1 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section1-article1-article1 ul li img {
+  margin-top: 40px;
+  height: 100px;
+  margin-right: 0px;
+  margin-top: 40px;
+}
+
+/* navigation below 700px */
+
+.nav ul li {
+  font-size: 24px;
+  margin: 20px 10px;
+}
+/* testimoniala below 700px */
+.section2 h1 {
+  font-size: 60px;
+  margin: 40px 0px;
+}
+.section2-article1 ol li {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px;
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+/* contact below 700px */
+form input[type="text"],
+  form input[type="email"] {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .section4 h1 {
+  font-size: 60px;
+  margin: 40px;
+  margin-top: 80px;
+}
+  /* Increase the width of the email input and text area */
+  form textarea {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  /* price below 700px */
+ 
+.section3 h3{
+  font-size: 60px;
+  margin: 30px 0px;
+}
+.section3 h1{
+  font-size: 40px;
+}
+.section3-article1 ol li {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  width: 400px;
+}
+.section3-list2 div {
+  margin: 15px;
+}
+.section3 h2 {
+  margin: 18px;
+}
+/* about us below 700px */
+
+.section6 h1 {
+  font-size: 60px;
+  margin: 40px 0px;
+}
+.section6 p {
+  width: 80%;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+/* why choose us below 700 px */
+.section5 h1 {
+  font-size: 50px;
+  margin: 40px 0px;
+}
+.section5 h3 {
+  margin: 25px;
+  font-size: 25px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* max width 500px */
+
+@media (max-width:500px){
+  .section1 {
+    padding: 0px;
+  }
+.section1-article1 {
+ width: 300px;
+  /* height: 500px; */
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+.section1-article1 h1 {
+  font-size: 40px;
+}
+.section1-article1 p {
+  font-size: 25px;
+  margin: 8px 0px;
+}
+.section1-article2 img {
+  height: 160px; /* Set image height to fill the container */
+  width: auto; /* Maintain aspect ratio */
+  margin: 60px 10px;
+}
+
+.section1-article1-article1 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section1-article1-article1 ul li img {
+  margin-top: 40px;
+  height: 100px;
+  margin-right: 0px;
+  margin-top: 40px;
+}
+
+/* navigation below 500px */
+
+.nav ul li {
+  font-size: 25px;
+  margin: 20px 10px;
+}
+.nav ul {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+/* testimoniala below 500px */
+.section2 h1 {
+  font-size: 50px;
+  margin: 40px 0px;
+}
+.section2-article1 ol li {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+/* contact below 500px */
+form input[type="text"],
+  form input[type="email"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .section4 h1 {
+  font-size: 40px;
+  margin: 30px;
+  margin-top: 60px;
+}
+  /* Increase the width of the email input and text area */
+  form textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+  /* price below 500px */
+ 
+.section3 h1{
+  font-size: 40px;
+}
+.section3 h3{
+  font-size: 50px;
+}
+.section3-article1 ol li {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  width: 300px;
+}
+.section3-list2 div {
+  margin: 15px;
+}
+.section3 h2 {
+  margin: 18px;
+}
+/* about us below 500px */
+
+.section6 h1 {
+  font-size: 40px;
+  margin: 40px 0px;
+}
+.section6 p {
+  width: 80%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+/* why choose us below 500 px */
+.section5 h1 {
+  font-size: 37px;
+  margin: 30px 0px;
+}
+.section5 h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

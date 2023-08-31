@@ -1,0 +1,29 @@
+/* section2 testimonials */
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+}
+.section2 h1 {
+  font-size: 100px;
+  margin: 50px 0px;
+}
+.section2-article1 ol li {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  margin: 50px;
+  font-size: 40px;
+  border-radius: 20px;
+}
+.section2-article1 ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
